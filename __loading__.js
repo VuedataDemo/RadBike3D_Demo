@@ -12,7 +12,7 @@ pc.script.createLoadingScreen(function (app) {
         splash.style.display = 'none';
 
         var logo = document.createElement('img');
-        logo.src = 'https://devden-creative-solutions.github.io/GlbProjectTest/devdenlogo.png';
+        logo.src = 'https://vuedatademo.github.io/RadBike3D_Demo/VuedataLogo.png';
         //logo.src = 'https://playcanvas.com/static-assets/images/play_text_252_white.png';https://devden-creative-solutions.github.io/GlbProjectTest/devdenlogo.png
         splash.appendChild(logo);
         logo.onload = function () {
@@ -78,7 +78,7 @@ pc.script.createLoadingScreen(function (app) {
             '#progress-bar {',
             '    width: 0%;',
             '    height: 100%;',
-            '    background-color: #00ff48;',
+            '    background-color: #3494fa;',
             '}',
             '',
             '@media (max-width: 480px) {',
